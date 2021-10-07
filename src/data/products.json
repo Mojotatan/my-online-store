@@ -7,6 +7,13 @@
     "allegiance": "bowser"
   },
   {
+    "id": "morgue-thrull",
+    "title": "Morgue Thrull",
+    "price": 420.69,
+    "image": "/images/morgue-thrull.jpeg",
+    "allegiance": "bowser"
+  },
+  {
     "id": "mario-holographic",
     "title": "Mario Holographic",
     "price": 324.99,
