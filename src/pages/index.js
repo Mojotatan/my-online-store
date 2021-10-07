@@ -34,14 +34,6 @@ export default function Home() {
           </div>
         </div> */}
 
-        <p className={styles.cart}>
-          <FaShoppingCart />
-          <span className="snipcart-total-price">
-            $0.00
-          </span>
-          <Button className="snipcart-checkout">View Cart</Button>
-        </p>
-
         <h2 className="sr-only">Available Cards</h2>
         <ul className={styles.products}>
           {products.map(product => {
@@ -61,7 +53,6 @@ export default function Home() {
                   </a>
                 </Link>
                 <p>
-                  {/* <Button>Add to Cart</Button> */}
                   <Button className="snipcart-add-item"
                     data-item-id={product.id}
                     data-item-price={product.price}
