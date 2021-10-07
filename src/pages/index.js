@@ -20,6 +20,11 @@ export default function Home() {
       <Head>
         <title>The Morgue Shop</title>
         <meta name="description" content="Your favorite trading cards delivered!" />
+        {/* snipcart preconnects for performance */}
+        <link rel="preconnect" href="https://app.snipcart.com" />
+        <link rel="preconnect" href="https://cdn.snipcart.com" />
+        {/* default snipcart styles */}
+        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.css" />
       </Head>
 
       <Container>
@@ -36,10 +41,10 @@ export default function Home() {
 
         <p className={styles.cart}>
           <FaShoppingCart />
-          <span>
+          <span className="snipcart-total-price">
             $0.00
           </span>
-          <Button>View Cart</Button>
+          <Button className="snipcart-checkout">View Cart</Button>
         </p>
 
         <h2 className="sr-only">Available Cards</h2>
@@ -61,13 +66,25 @@ export default function Home() {
                   </a>
                 </Link>
                 <p>
-                  <Button>Add to Cart</Button>
+                  {/* <Button>Add to Cart</Button> */}
+                  <Button className="snipcart-add-item"
+                    data-item-id={product.id}
+                    data-item-price={product.price}
+                    data-item-url={`/products/${product.id}`}
+                    data-item-image={product.image}
+                    data-item-name={product.title}>
+                    Add to cart
+                  </Button>
                 </p>
               </li>
             )
           })}
         </ul>
       </Container>
+
+      {/* load snipcart */}
+      <script async src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"></script>
+      <div hidden id="snipcart" data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY}></div>
     </Layout>
   )
 }
