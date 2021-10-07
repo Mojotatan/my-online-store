@@ -14,6 +14,13 @@
     "allegiance": "bowser"
   },
   {
+    "id": "scapegoat",
+    "title": "Scapegoat",
+    "price": 2.99,
+    "image": "/images/scapegoat.png",
+    "allegiance": "mario"
+  },
+  {
     "id": "mario-holographic",
     "title": "Mario Holographic",
     "price": 324.99,
