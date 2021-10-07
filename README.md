@@ -1,6 +1,6 @@
 # Demo for Jamstack Workshop
 
-This repo is part of a workshop.  The workshop's repo is here: [](https://github.com/colbyfayock/hyper-bros-trading-workshop)
+This repo is part of a workshop.  The workshop's repo is [here](https://github.com/colbyfayock/hyper-bros-trading-workshop).
 
 ## Getting Started
 
