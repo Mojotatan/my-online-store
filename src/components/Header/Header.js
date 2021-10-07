@@ -17,12 +17,10 @@ const Header = () => {
           </Link>
         </p>
         <p className={styles.headerCart}>
-          {cart.subtotal &&
-            <button className="snipcart-checkout">
-              <FaShoppingCart />
-              <span>${cart.subtotal}</span>
-            </button>
-          }
+          <button className="snipcart-checkout">
+            <FaShoppingCart />
+            <span>${cart.subtotal}</span>
+          </button>
         </p>
       </Container>
     </header>

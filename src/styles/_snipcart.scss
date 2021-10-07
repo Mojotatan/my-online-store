@@ -1,1 +1,21 @@
 @import "@styles/settings/__settings";
+
+#snipcart {
+  --bgColor-buttonPrimary: #{$color-brand-green};
+  --bgColor-buttonPrimary-hover: #{lighten($color-brand-green, 20)};
+}
+
+.snipcart-sidecart--opened {
+  #__next::before {
+    content: '';
+    background-color: black;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: .5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1
+  }
+}
