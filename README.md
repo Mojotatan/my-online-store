@@ -1,6 +1,6 @@
-# Hyper Bros Trading Workshop Starter
+# Demo for Jamstack Workshop
 
-Hey there! This is a starter project for my workshop [](https://github.com/colbyfayock/hyper-bros-trading-workshop). If you're just browsing around, learn more about my workshop over at: https://github.com/colbyfayock/hyper-bros-trading-workshop
+This repo is part of a workshop.  The workshop's repo is here: [](https://github.com/colbyfayock/hyper-bros-trading-workshop)
 
 ## Getting Started
 

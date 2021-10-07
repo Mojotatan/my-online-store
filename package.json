@@ -1,11 +1,10 @@
 {
-  "name": "my-ecommerce-app",
+  "name": "my-online-store",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Colby Fayock",
-    "email": "hello@colbyfayock.com",
-    "url": "https://twitter.com/colbyfayock"
+    "name": "James Byrd",
+    "email": "tatan42@gmail.com"
   },
   "license": "MIT",
   "scripts": {
